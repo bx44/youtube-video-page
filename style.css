@@ -8,12 +8,13 @@
 	left: 0;
 	display: inline-block;
 }
-.video {
+.video-container {
 	display: inline-block;
 }
 .sidebar{
 	max-width:468px;
 	display:inline-block;
+	position: absoulte;
 }
 .logo {
 	height: inherit;
@@ -83,4 +84,102 @@
 }
 h4{
 	margin: 0;
+}
+.title{
+	text-align: left;
+}
+.author-info, .views {
+	display: inline-block;
+}
+.author-info span {
+	vertical-align: top;
+}
+.views{
+    float: right;
+    position: relative;
+    top: 25px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: cornflowerblue;
+    font-size: large;
+
+}
+.author-info button {
+	
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: -95px;
+
+}
+.video-actions button{
+	height:28px;
+	opacity:0.5;
+	border-style: none; 
+	margin: 0px -1px 0px 0px; 
+	padding: 0px 10px;
+	background-color: transparent;
+}
+.video-actions span{
+	vertical-align:middle;
+}
+.add-to-button{
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	width:20px;
+	height:20px;
+	margin-right:6px;
+	background-position: -151px -725px;
+	background-repeat: no-repeat; 
+}
+.share-button{
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	width:20px;
+	height:20px;
+	margin-right:6px;
+	background-position: -267px -824px;
+	background-repeat: no-repeat; 
+}
+
+.more-button{
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	width:20px;
+	height:20px;
+	margin-right:6px;
+	background-position: -154px -860px;
+	background-repeat: no-repeat; 
+}
+.like-button{
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	width:20px;
+	height:20px;
+	margin-right:6px;
+	background-position: 0px -867px;
+	background-repeat: no-repeat; 
+}
+.dislike-button{
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	width:20px;
+	height:20px;
+	margin-right:6px;
+	background-position: -174px -804px;
+	background-repeat: no-repeat; 
+}
+.up-down-votes{
+	
+    display: inline-block;
+    float: right;
+
 }
