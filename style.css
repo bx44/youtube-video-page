@@ -1,0 +1,49 @@
+.wrapper {
+	text-align: center;
+}
+.navbar {
+	max-height: 50px;
+	padding: 25px;
+	top: 0;
+	left: 0;
+	display: inline-block;
+}
+.logo {
+	height: inherit;
+	margin-left:25px;
+}
+.menu-button {
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-color: transparent;
+	width:16px;
+	height:16px;
+	display: inline-block;
+	background-position: -198px -862px;
+	margin-bottom: 23px;
+}
+.upload-button {
+	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-color: transparent;
+	width:24px;
+	height:24px;
+	display:inline-block;
+	background-position: -125px -314px;
+	background-repeat: no-repeat;
+	
+    vertical-align: middle;
+    margin-bottom: 40px;
+    margin-left: 25px;
+
+}
+.search-input, .signin-button{
+	
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+}
+.search-button{
+    margin-bottom: 40px;
+    vertical-align: middle;
+}
