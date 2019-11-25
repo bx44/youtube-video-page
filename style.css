@@ -8,6 +8,13 @@
 	left: 0;
 	display: inline-block;
 }
+.video {
+	display: inline-block;
+}
+.sidebar{
+	max-width:468px;
+	display:inline-block;
+}
 .logo {
 	height: inherit;
 	margin-left:25px;
@@ -46,4 +53,34 @@
 .search-button{
     margin-bottom: 40px;
     vertical-align: middle;
+}
+.related-videos{
+	list-style: none;
+}
+
+
+.related-video{
+	display: block;
+}
+
+.related-video img{
+	display: inline-block;
+    width: 168px;
+    position: relative;
+    left: 10px;
+    top: 0;
+}
+.related-video span{
+	color: gray;
+}
+.rel-video-info{
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+	width: 180px;
+	overflow: hidden;
+	text-align: left;
+}
+h4{
+	margin: 0;
 }
