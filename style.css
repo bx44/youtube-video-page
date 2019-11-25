@@ -8,6 +8,12 @@
 	left: 0;
 	display: inline-block;
 }
+.content{
+	
+    width: 70%;
+    margin-left: 4%;
+
+}
 .video-container {
 	display: inline-block;
 }
@@ -15,6 +21,18 @@
 	max-width:468px;
 	display:inline-block;
 	position: absoulte;
+    width: 20%;
+    float: right;
+    top: 92px;
+    position: absolute;
+    right: 10%;
+}
+.description{
+	text-align: left;
+	margin-top: 15px;
+}
+.description span{
+    font-weight: bold;
 }
 .logo {
 	height: inherit;
