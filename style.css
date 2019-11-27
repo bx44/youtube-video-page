@@ -16,7 +16,7 @@ body{
     padding-top: 0;
     position: absolute;
     box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
-
+	text-align: right
 }
 .content{
 	
@@ -61,6 +61,13 @@ body{
 .logo {
 	height: inherit;
 	margin-left:25px;
+	float: left;
+}
+.navbar-right{
+    position: relative;
+    top: 15px;
+    right: 75px;
+
 }
 .menu-button {
 	background-image:url('./img/buttons.png');
@@ -70,6 +77,9 @@ body{
 	display: inline-block;
 	background-position: -198px -862px;
 	margin-bottom: 23px;
+	position: relative;
+	top: 25px;
+	float: left;
 }
 .upload-button {
 	background-image:url('./img/buttons.png');
@@ -79,23 +89,38 @@ body{
 	display:inline-block;
 	background-position: -125px -314px;
 	background-repeat: no-repeat;
-	
-    vertical-align: middle;
-    margin-bottom: 40px;
     margin-left: 25px;
+	position: relative;
+	top: 10px;
 
 }
-.search-input, .signin-button{
+.search-input{
+		width: 45%;
+}
+
+.search-input, .signin-button, .search-button{
 	
     display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 40px;
-    margin-left: 20px;
-
+    margin-left: 25px;
+	height: 30px;
 }
 .search-button{
-    margin-bottom: 40px;
-    vertical-align: middle;
+	margin-left: 0px;
+	position: relative;
+	top: 8px;
+}
+.search-button-icon {
+	background-image:url('./img/buttons.png');
+	background-color: transparent;
+	width:24px;
+	height:24px;
+	display:inline-block;
+	background-position: -28px -66px;
+	background-repeat: no-repeat;
+    margin-left: 9px;
+	position: relative;
+	top: 4px;
+
 }
 .related-videos{
 	list-style: none;
