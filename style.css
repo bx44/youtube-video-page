@@ -63,7 +63,7 @@ body{
 	margin-left:25px;
 }
 .menu-button {
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	background-color: transparent;
 	width:16px;
 	height:16px;
@@ -72,7 +72,7 @@ body{
 	margin-bottom: 23px;
 }
 .upload-button {
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	background-color: transparent;
 	width:24px;
 	height:24px;
@@ -178,7 +178,7 @@ h4{
 .add-to-button{
 	display:inline-block;
 	vertical-align:middle;
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	width:20px;
 	height:20px;
 	margin-right:6px;
@@ -188,7 +188,7 @@ h4{
 .share-button{
 	display:inline-block;
 	vertical-align:middle;
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	width:20px;
 	height:20px;
 	margin-right:6px;
@@ -199,7 +199,7 @@ h4{
 .more-button{
 	display:inline-block;
 	vertical-align:middle;
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	width:20px;
 	height:20px;
 	margin-right:6px;
@@ -209,7 +209,7 @@ h4{
 .like-button{
 	display:inline-block;
 	vertical-align:middle;
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	width:20px;
 	height:20px;
 	margin-right:6px;
@@ -219,7 +219,7 @@ h4{
 .dislike-button{
 	display:inline-block;
 	vertical-align:middle;
-	background-image:url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+	background-image:url('./img/buttons.png');
 	width:20px;
 	height:20px;
 	margin-right:6px;
