@@ -1,10 +1,11 @@
-body{
+body {
 	background-color: #EEEEEE;
 }
 
 .wrapper {
 	text-align: center;
 }
+
 .navbar {
 	max-height: 50px;
 	padding-top: 25px;
@@ -19,17 +20,18 @@ body{
     box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
 	text-align: right
 }
-.content{
-	
+
+.content {
     width: 63%;
     margin-left: 4%;
 	margin-top: 80px;
-
 }
+
 .video-container {
 	display: inline-block;
 }
-.sidebar{
+
+.sidebar {
 	max-width:468px;
 	display:inline-block;
     width: 27%;
@@ -40,36 +42,38 @@ body{
 	background-color: white;
 	box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
 }
-.description{
+
+.description {
 	text-align: left;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
     padding: 12px;
     margin-top: 15px;
-
 }
-.description span{
+
+.description span {
     font-weight: bold;
 }
-.video{
-	
+
+.video {	
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
     padding: 12px;
     margin-top: 12px;
-
 }
+
 .logo {
 	height: inherit;
 	margin-left: 50px;
 	float: left;
 }
-.navbar-right{
+
+.navbar-right {
     position: relative;
     top: 15px;
     right: 75px;
-
 }
+
 .menu-button {
 	background-image:url('./img/buttons.png');
 	background-color: transparent;
@@ -83,6 +87,7 @@ body{
 	left: 25px;
 	float: left;
 }
+
 .upload-button {
 	background-image:url('./img/buttons.png');
 	background-color: transparent;
@@ -94,8 +99,8 @@ body{
     margin-left: 25px;
 	position: relative;
 	top: 10px;
-
 }
+
 .help-button {
 	background-image:url('./img/buttons.png');
 	background-color: transparent;
@@ -121,21 +126,23 @@ body{
 	position: relative;
 	top: 10px;
 }
-.search-input{
-		width: 45%;
+
+.search-input {
+	width: 45%;
 }
 
-.search-input, .signin-button, .search-button{
-	
+.search-input, .signin-button, .search-button {
     display: inline-block;
     margin-left: 25px;
 	height: 30px;
 }
-.search-button{
+
+.search-button {
 	margin-left: 0px;
 	position: relative;
 	top: 8px;
 }
+
 .search-button-icon {
 	background-image:url('./img/buttons.png');
 	background-color: transparent;
@@ -147,30 +154,31 @@ body{
     margin-left: 9px;
 	position: relative;
 	top: 4px;
-
 }
-.related-videos{
+
+.related-videos {
 	list-style: none;
 	padding: 0;
 	padding-top: 25px;
 }
 
-
-.related-video{
+.related-video {
 	display: block;
 }
 
-.related-video img{
+.related-video img {
 	display: inline-block;
     width: 168px;
     position: relative;
     left: 10px;
     top: 0;
 }
-.related-video span{
+
+.related-video span {
 	color: gray;
 }
-.rel-video-info{
+
+.rel-video-info {
 	display: inline-block;
 	margin-left: 15px;
 	position: relative;
@@ -178,24 +186,28 @@ body{
 	overflow: hidden;
 	text-align: left;
 }
-h4{
+
+h4 {
 	margin: 0;
 }
-.title{
+
+.title {
 	text-align: left;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
     padding: 12px;
     margin-top: 15px;
-
 }
+
 .author-info, .views {
 	display: inline-block;
 }
+
 .author-info span {
 	vertical-align: top;
 }
-.views{
+
+.views {
     float: right;
     position: relative;
     top: 25px;
@@ -206,17 +218,16 @@ h4{
     border-left: 0;
     border-color: cornflowerblue;
     font-size: large;
-
 }
-.author-info button {
-	
+
+.author-info button {	
     display: inline-block;
     position: relative;
     top: -10px;
     left: -95px;
-
 }
-.video-actions button{
+
+.video-actions button {
 	height:28px;
 	opacity:0.5;
 	border-style: none; 
@@ -224,10 +235,12 @@ h4{
 	padding: 0px 10px;
 	background-color: transparent;
 }
-.video-actions span{
+
+.video-actions span {
 	vertical-align:middle;
 }
-.add-to-button{
+
+.add-to-button {
 	display:inline-block;
 	vertical-align:middle;
 	background-image:url('./img/buttons.png');
@@ -237,7 +250,8 @@ h4{
 	background-position: -151px -725px;
 	background-repeat: no-repeat; 
 }
-.share-button{
+
+.share-button {
 	display:inline-block;
 	vertical-align:middle;
 	background-image:url('./img/buttons.png');
@@ -248,7 +262,7 @@ h4{
 	background-repeat: no-repeat; 
 }
 
-.more-button{
+.more-button {
 	display:inline-block;
 	vertical-align:middle;
 	background-image:url('./img/buttons.png');
@@ -258,7 +272,8 @@ h4{
 	background-position: -154px -860px;
 	background-repeat: no-repeat; 
 }
-.like-button{
+
+.like-button {
 	display:inline-block;
 	vertical-align:middle;
 	background-image:url('./img/buttons.png');
@@ -268,7 +283,8 @@ h4{
 	background-position: 0px -867px;
 	background-repeat: no-repeat; 
 }
-.dislike-button{
+
+.dislike-button {
 	display:inline-block;
 	vertical-align:middle;
 	background-image:url('./img/buttons.png');
@@ -278,9 +294,8 @@ h4{
 	background-position: -174px -804px;
 	background-repeat: no-repeat; 
 }
-.up-down-votes{
-	
+
+.up-down-votes {
     display: inline-block;
     float: right;
-
 }
