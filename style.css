@@ -94,6 +94,19 @@ body{
 	top: 10px;
 
 }
+.help-button {
+	background-image:url('./img/buttons.png');
+	background-color: transparent;
+	width:16px;
+	height:21px;
+	display:inline-block;
+	background-position: -147px -230px;
+	background-repeat: no-repeat;
+    margin-left: 25px;
+	position: relative;
+	top: 10px;
+
+}
 .search-input{
 		width: 45%;
 }
